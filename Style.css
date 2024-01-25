@@ -1,0 +1,75 @@
+.nav-bar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav-bar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#main-game {
+  text-align: center;
+}
+
+#main-game img {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+}
+
+#main-game button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#about-us {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonkiri {
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+.buttonkanan {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background: url("File\ Pendukung/Background.mp4") no-repeat fixed center;
+}
+
+video#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  z-index: -100;
+  background-size: cover;
+}
+
+.sumber {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
